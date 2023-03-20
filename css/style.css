@@ -134,7 +134,7 @@ header__lng-link:hover {
 }
 /* Intro start */
 .intro {
-    background: url('../img/intro_bg.jpg') no-repeat; animation:spin 5s linear 0s infinite;
+    background: url('../img/intro_bg.jpg') no-repeat;
     background-size: cover;
     position: relative;
 }
