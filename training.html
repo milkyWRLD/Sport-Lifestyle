@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Training</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a id="button"></a>
+<a id="question"></a>
+<header class="header">
+    <div class="container">
+        <div class="header_wrapper">
+
+            <div class="header__block">
+                <a href="index.html" class="header__logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <!--/header__block-->
+
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav__link">Main</a>
+                <a href="motivation.html" class="nav__link">Motivation</a>
+                <a href="healthy eating.html" class="nav__link">Healthy eating</a>
+                <a href="training.html" class="nav__link active">Training</a>
+                <a id="Support" href="#" class="nav__link">Support</a>
+            </nav>
+
+            <div class="header__block">
+                <div class="header__lng">
+                    <a id="change-ru-button" href="#" class="header__lng-link">Ru</a>
+                    <p><a href="#" class="header__lng-link active" >En</a></p>
+                    <p><a href="training.html" class="header__lng-link" style="margin-left: 10px" > ↑ </a></p>
+                    <p><a href="#footer" class="header__lng-link" style="margin-left: 10px" > ↓ </a></p>
+                </div>
+            </div>
+        </div>
+        <!--/header__wrapper-->
+    </div>
+    <!--/container-->
+</header>
+
+<section class="intro__training">
+    <div class="container">
+        <div class="intro__nutrition__content">
+            <div class="intro__nutrition__block">
+                <h1 class="intro__nutrition__title">
+                    GYM TRAINING
+                </h1>
+                <h3 class="subtext__nutrition__text">
+                    Website about gym classes, balanced nutrition and building a healthy, muscular body. Exercise techniques, free weights and fitness equipment.
+                </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="block__title">
+            WORKOUTS & PROGRAMS
+        </h2>
+        <a href="https://yworkout.ru/" class="block__link">
+            VIEW ALL TRAINING
+        </a>
+
+        <div class="training__wrapper">
+            <div class="training__block">
+                <a href="https://yworkout.ru/spina.html" class="training__item">
+                    <div class="training__content" style="background-image:url('img/спина.jpg')">
+                        <div class="training__content-item">
+                            <div class="training__img">
+                                <img src="img/plus.svg" alt="">
+                            </div>
+                            <p class="training__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                        </div>
+                    </div>
+                    <h3 class="training__title">
+                        STRONG BACK
+                    </h3>
+                </a>
+            </div>
+            <div class="training__block">
+                <a href="https://yworkout.ru/biceps.html" class="training__item">
+                    <div class="training__content" style="background-image:url('img/руки.jpg')">
+                        <div class="training__content-item">
+                            <div class="training__img">
+                                <img src="img/plus.svg" alt="">
+                            </div>
+                            <p class="training__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                        </div>
+                    </div>
+                    <h3 class="training__title">
+                        PUMPED ARMS
+                    </h3>
+                </a>
+            </div>
+            <div class="training__block">
+                <a href="https://yworkout.ru/grudnye-myshcy.html" class="training__item">
+                    <div class="training__content" style="background-image:url('img/грудь.jpg')">
+                        <div class="training__content-item">
+                            <div class="training__img">
+                                <img src="img/plus.svg" alt="">
+                            </div>
+                            <p class="training__text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                        </div>
+                    </div>
+                    <h3 class="training__title">
+                        LARGE BREASTS
+                    </h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <p class="copyright">
+                © 2022 Sport theme by Artsid.Milkywrld
+            </p>
+            <div class="footer__soc">
+                <a href="https://t.me/artsid_milkywrld" target="_blank" class="footer__soc-link">
+                    <img src="img/telegram.svg" alt="">
+                </a>
+                <a href="https://instagram.com/artsid.milkywrld?igshid=YWJhMjlhZTc=" class="footer__soc-link">
+                    <img src="img/instagram.svg" alt="">
+                </a>
+                <a href="https://vk.com/artsid69" class="footer__soc-link">
+                    <img src="img/vk.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    const button = document.querySelector("#change-ru-button");
+    button.onclick = () => {
+        alert("RU-версия сайта ещё в разработке");
+    };
+
+    const question = document.querySelector("#Support");
+    question.onclick = () => {
+        let question = prompt('Возникли вопросы? Укажите свою почту и мы ответим вам!', );
+
+        alert(`Проверьте почту!`);
+    };
+
+    $(window).on("mousewheel wheel DOMMouseScroll scroll", () => {
+        let windowScrollTop = $(window).scrollTop()
+        const header = document.querySelector("header")
+
+        if (windowScrollTop >= 100) {
+            header.classList.add("with__bg");
+        } else {
+            header.classList.remove("with__bg");
+        }
+    });
+</script>
+</body>
+</html>
